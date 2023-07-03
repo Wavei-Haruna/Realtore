@@ -6,12 +6,14 @@ import Offers from './Pages/Offers'
 import SignIn from './Pages/SignIn'
 import SignUp from './Pages/SignUp'
 import ForgetPassword from './Pages/ForgetPassword'
+import Header from './Componennts/Header'
 
 export default function App() {
   return (
     < >
 
       <Router>
+        <Header />
 
       <Routes>
         <Route exact path='/' element={<Home/>}/>
